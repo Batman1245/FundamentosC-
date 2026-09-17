@@ -1,0 +1,15 @@
+C:\Users\54837699880\Desktop\FundamentosDeC#\bin\Debug\net10.0\FundamentosDeC#.exe
+C:\Users\54837699880\Desktop\FundamentosDeC#\bin\Debug\net10.0\FundamentosDeC#.deps.json
+C:\Users\54837699880\Desktop\FundamentosDeC#\bin\Debug\net10.0\FundamentosDeC#.runtimeconfig.json
+C:\Users\54837699880\Desktop\FundamentosDeC#\bin\Debug\net10.0\FundamentosDeC#.dll
+C:\Users\54837699880\Desktop\FundamentosDeC#\bin\Debug\net10.0\FundamentosDeC#.pdb
+C:\Users\54837699880\Desktop\FundamentosDeC#\obj\Debug\net10.0\FundamentosDeC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\54837699880\Desktop\FundamentosDeC#\obj\Debug\net10.0\FundamentosDeC#.AssemblyInfoInputs.cache
+C:\Users\54837699880\Desktop\FundamentosDeC#\obj\Debug\net10.0\FundamentosDeC#.AssemblyInfo.cs
+C:\Users\54837699880\Desktop\FundamentosDeC#\obj\Debug\net10.0\FundamentosDeC#.csproj.CoreCompileInputs.cache
+C:\Users\54837699880\Desktop\FundamentosDeC#\obj\Debug\net10.0\FundamentosDeC#.dll
+C:\Users\54837699880\Desktop\FundamentosDeC#\obj\Debug\net10.0\refint\FundamentosDeC#.dll
+C:\Users\54837699880\Desktop\FundamentosDeC#\obj\Debug\net10.0\FundamentosDeC#.pdb
+C:\Users\54837699880\Desktop\FundamentosDeC#\obj\Debug\net10.0\FundamentosDeC#.genruntimeconfig.cache
+C:\Users\54837699880\Desktop\FundamentosDeC#\obj\Debug\net10.0\ref\FundamentosDeC#.dll
+C:\Users\54837699880\Desktop\FundamentosDeC#\obj\Debug\net10.0\Fundamen.AC95AF03.Up2Date
