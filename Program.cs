@@ -334,12 +334,41 @@
 //while (enquanto)
 // enquanto (condiçao for verdade) { faz algo}
 
-// Peço uma senha, enquanto a senha estiver errada, pergunto denovo
+//// Peço uma senha, enquanto a senha estiver errada, pergunto denovo
+//Console.WriteLine("Digite a senha: ");
+//string senha = Console.ReadLine();
+
+////enquanto a senha e diferente de Ryan
+//while (senha != "Ryan")
+//{
+//    Console.WriteLine("Senha Incorreta");
+//    Console.WriteLine("Digite a senha: ");
+//    senha = Console.ReadLine();
+
+//}
+
+// do/while
+
+// for
+
+
+
+Console.WriteLine("-----------------------------------------\r\n    Exercícios Fundamental\r\n-----------------------------------------");
+
+//Exercícios 1
+int numero = 1;
+
+while(numero <= 10)
+{
+    Console.WriteLine(numero);
+    numero++;
+}
+
+//Exercícios 2
+
 Console.WriteLine("Digite a senha: ");
 string senha = Console.ReadLine();
-
-//enquanto a senha e diferente de Ryan
-while (senha != "Ryan")
+while (senha != "123")
 {
     Console.WriteLine("Senha Incorreta");
     Console.WriteLine("Digite a senha: ");
@@ -347,7 +376,14 @@ while (senha != "Ryan")
 
 }
 
-// do/while
+//Exercícios 2
+Console.WriteLine("Executando o processo...");
+Console.WriteLine("Voce Deseja Execuktar de novo?");
+string letra;
 
-// for
+do
+{
+     letra = Console.ReadLine();
+    Console.WriteLine("Processo Encessaro!");
 
+} while (letra != "s" || letra "S");
