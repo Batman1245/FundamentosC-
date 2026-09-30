@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="../Array/Array.csproj" Id="5849256b-c4d7-40f3-aa10-a986ac71018b" />
   <Project Path="../EstruturaRepetiçao/EstruturaRepeticao.csproj" Id="94b039d0-f31b-40fc-b0b4-77c10018bfe2" />
   <Project Path="../OperadorComparacao/OperadorComparacao.csproj" Id="78654476-0906-4382-9bb2-ad329606fb37" />
   <Project Path="FundamentosDeC#.csproj" />

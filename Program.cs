@@ -352,38 +352,175 @@
 // for
 
 
+// loops exercicios
+
+using System.Runtime.Serialization;
 
 Console.WriteLine("-----------------------------------------\r\n    Exercícios Fundamental\r\n-----------------------------------------");
 
+////Exercícios 1
+//int numero = 1;
+
+//while(numero <= 10)
+//{
+//    Console.WriteLine(numero);
+//    numero++;
+//}
+
+////Exercícios 2
+
+//Console.WriteLine("Digite a senha: ");
+//string senha = Console.ReadLine();
+//while (senha != "123")
+//{
+//    Console.WriteLine("Senha Incorreta");
+//    Console.WriteLine("Digite a senha: ");
+//    senha = Console.ReadLine();
+
+//}
+
+////Exercícios 2
+////Console.WriteLine("Executando o processo...");
+////Console.WriteLine("Voce Deseja Execuktar de novo?");
+////string letra;
+
+////do
+////{
+////     letra = Console.ReadLine();
+////    Console.WriteLine("Processo Encessaro!");
+
+////} while (letra != "s" || letra != "S");
+
+////Exercícios 3
+//int numero1;
+//int soma = 0;
+
+//do
+//{
+//    Console.WriteLine("Digite um numero ou 0 para: ");
+//    numero1 = int.Parse(Console.ReadLine());
+//    soma += numero1;
+
+//} while (numero1 != 0);
+//Console.WriteLine(soma);
+
+////Exercícios 4
+//Console.WriteLine("Digite um numero vou te mostar a Tabuada Desse numero e: ");
+//int numero3 = int.Parse(Console.ReadLine()); ;
+
+//for (int i = 0; i <= 10; i ++)
+//{
+//    Console.WriteLine($"{numero3} X {i} = {numero3 * i}");
+//}
+
+////Exercícios 5
+//Console.WriteLine("Digite um numero para somar ate 100: ");
+//int numero4 = int.Parse(Console.ReadLine()); ;
+//for (int i = 1; i < 100; i++)
+//{
+//    Console.WriteLine($"{numero4} + {i} = {numero4 + i}");
+//}
+
+Console.WriteLine("-----------------------------------------\r\n    Exercícios Intermediário\r\n-----------------------------------------");
+
 //Exercícios 1
-int numero = 1;
-
-while(numero <= 10)
-{
-    Console.WriteLine(numero);
-    numero++;
-}
-
-//Exercícios 2
-
-Console.WriteLine("Digite a senha: ");
-string senha = Console.ReadLine();
-while (senha != "123")
-{
-    Console.WriteLine("Senha Incorreta");
-    Console.WriteLine("Digite a senha: ");
-    senha = Console.ReadLine();
-
-}
+//Console.WriteLine("Digite a senha: ");
+//string senha = Console.ReadLine();
+//do
+//{
+//    Console.WriteLine("Senha Curta! \n deve ter no mínimo 8 caracteres.");
+//    Console.WriteLine("Digite a senha: ");
+//    senha = Console.ReadLine();
+//    Console.WriteLine("cadastrada com sucesso!");
+//} while (senha.Length != 8);
 
 //Exercícios 2
-Console.WriteLine("Executando o processo...");
-Console.WriteLine("Voce Deseja Execuktar de novo?");
-string letra;
+//Console.WriteLine("Digite um numero inteiro: ");
+//int n = int.Parse(Console.ReadLine());
+//int soma = 1;
+//for (int i = 1; i <= n; i++)
+//{
+//    Console.WriteLine($"{n}! = {i} X {soma *= i}");
+//}
 
+////Exercícios 3
+//int numeroUsuario = 0;
+//int numeroSecreto = new Random().Next(1, 101);
+//int tentativa = 0;
+//while (numeroSecreto != numeroUsuario){
+//    Console.WriteLine("Escolha Um Numero para adivinha 1 e 100: ");
+//    numeroUsuario = int.Parse(Console.ReadLine());
+//    tentativa++;
+//    if (numeroUsuario >= numeroSecreto)
+//    {
+//        Console.WriteLine("O Numero da Sorte e Menor!");
+//    }
+//    else if (numeroUsuario <= numeroSecreto)
+//    {
+//        Console.WriteLine("O Numero da Sorte e maior");
+//    }
+//    else
+//    {
+//        Console.WriteLine($"Voce acertou o numero!");
+//        Console.WriteLine($"Foram necessárias {tentativa} tentativas.");
+//    }
+//}
+
+//Exercícios 4
+int nu1 = 0;
+int nu2 = 0;
+int resultado;
+int opçeo =  0 ;
 do
 {
-     letra = Console.ReadLine();
-    Console.WriteLine("Processo Encessaro!");
+    Console.WriteLine("opções 1 - Somar + \nopções 2 - Subtrair - \nopções 3 - Multiplicar * \nopções 4 - sair");
+    Console.WriteLine("Escolha uma Operaçao!");
 
-} while (letra != "s" || letra "S");
+    opçeo = int.Parse(Console.ReadLine());
+
+    switch (opçeo)
+    {
+        case 1:
+
+            Console.WriteLine("Escolha um Numero: ");
+            nu1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Escolha outro Numero: ");
+            nu2 = int.Parse(Console.ReadLine());
+
+            resultado = (nu1 + nu2);
+            Console.WriteLine($" o resultado e : {resultado}");
+            
+            break;
+        case 2:
+
+            Console.WriteLine("Escolha um Numero: ");
+            nu1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Escolha outro Numero: ");
+            nu2 = int.Parse(Console.ReadLine());
+
+            resultado = (nu1 - nu2);
+
+            Console.WriteLine($" o resultado e : {resultado}");
+
+            break;
+        case 3:
+
+            Console.WriteLine("Escolha um Numero: ");
+            nu1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Escolha outro Numero: ");
+            nu2 = int.Parse(Console.ReadLine());
+
+            resultado= (nu1 * nu2);
+            Console.WriteLine($" o resultado e : {resultado}");
+
+            break;
+        case 4:
+
+            Console.WriteLine("Processo Finalizado!");
+            break;
+    }
+    
+}while (opçeo != 4);
