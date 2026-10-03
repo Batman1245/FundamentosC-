@@ -3,17 +3,17 @@
   "WorkspaceRootPath": "C:\\Users\\54837699880\\Desktop\\FundamentosDeC#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5849256B-C4D7-40F3-AA10-A986AC71018B}|..\\Array\\Array.csproj|c:\\users\\54837699880\\desktop\\array\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C998D7DD-7184-468C-AAA4-52E6148E9F47}|FundamentosDeC#.csproj|c:\\users\\54837699880\\desktop\\fundamentosdec#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C998D7DD-7184-468C-AAA4-52E6148E9F47}|FundamentosDeC#.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94B039D0-F31B-40FC-B0B4-77C10018BFE2}|..\\EstruturaRepeti\u00E7ao\\EstruturaRepeticao.csproj|c:\\users\\54837699880\\desktop\\estruturarepeti\u00E7ao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78654476-0906-4382-9BB2-AD329606FB37}|..\\OperadorComparacao\\OperadorComparacao.csproj|c:\\users\\54837699880\\desktop\\operadorcomparacao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94B039D0-F31B-40FC-B0B4-77C10018BFE2}|..\\EstruturaRepeti\u00E7ao\\EstruturaRepeticao.csproj|c:\\users\\54837699880\\desktop\\estruturarepeti\u00E7ao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5849256B-C4D7-40F3-AA10-A986AC71018B}|..\\Array\\Array.csproj|c:\\users\\54837699880\\desktop\\array\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,8 +23,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\54837699880\\Desktop\\FundamentosDeC#\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\54837699880\\Desktop\\FundamentosDeC#\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAD0CAAAAAAAAAAAUwFACAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T22:32:40.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\54837699880\\Desktop\\EstruturaRepeti\u00E7ao\\Program.cs",
+              "RelativeDocumentMoniker": "..\\EstruturaRepeti\u00E7ao\\Program.cs",
+              "ToolTip": "C:\\Users\\54837699880\\Desktop\\EstruturaRepeti\u00E7ao\\Program.cs",
+              "RelativeToolTip": "..\\EstruturaRepeti\u00E7ao\\Program.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAIwNwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T23:27:16.892Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -33,49 +59,22 @@
               "RelativeDocumentMoniker": "..\\OperadorComparacao\\Program.cs",
               "ToolTip": "C:\\Users\\54837699880\\Desktop\\OperadorComparacao\\Program.cs",
               "RelativeToolTip": "..\\OperadorComparacao\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-30T00:31:45.81Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\54837699880\\Desktop\\FundamentosDeC#\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\54837699880\\Desktop\\FundamentosDeC#\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAOoBAAAAAAAAAAAAAAoCAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-16T22:32:40.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\54837699880\\Desktop\\Array\\Program.cs",
               "RelativeDocumentMoniker": "..\\Array\\Program.cs",
               "ToolTip": "C:\\Users\\54837699880\\Desktop\\Array\\Program.cs",
               "RelativeToolTip": "..\\Array\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T00:12:23.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\54837699880\\Desktop\\EstruturaRepeti\u00E7ao\\Program.cs",
-              "RelativeDocumentMoniker": "..\\EstruturaRepeti\u00E7ao\\Program.cs",
-              "ToolTip": "C:\\Users\\54837699880\\Desktop\\EstruturaRepeti\u00E7ao\\Program.cs",
-              "RelativeToolTip": "..\\EstruturaRepeti\u00E7ao\\Program.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAAAIEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T23:27:16.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-30T00:12:23.049Z"
             }
           ]
         }
